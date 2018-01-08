@@ -6,7 +6,7 @@ class Song
   end
 
   def artist_name
-    if @artist.name? @artist.name : return nil
+    @artist.name? artist.name : nil 
   end
 
 end
