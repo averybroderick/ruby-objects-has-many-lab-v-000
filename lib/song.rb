@@ -6,7 +6,7 @@ class Song
   end
 
   def artist_name
-    self.artist? @artist.name : return nil
+    self.artist? @artist.name : puts "nil"
   end
 
 end
